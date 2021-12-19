@@ -1,0 +1,60 @@
+h1{
+	color: Black;
+	font-size: 50px;
+	border-width: 20px;
+	border-color: darkcyan ;
+	text-decoration-line: underline ;
+	text-decoration-style: dashed;
+	text-decoration-color: darkred;
+	text-underline-position: left;
+	text-shadow: 3px 1px 30px black;
+}
+a{
+	color: Black;
+	font-size: 65px;
+	border-width: 20px;
+	border-color: darkcyan ;
+	text-decoration-line: underline ;
+	text-decoration-style: unset;
+	text-decoration-color: darkred;
+	text-underline-position: right;
+	text-shadow: 30px 10px 150px black;
+}
+a:hover {
+color: darkorange;
+background-color: black;
+transition: 0.5s ;
+}
+p{
+	color: white;
+	font-size: 35px;
+}
+@keyframes buttonanim{
+	from {border-radius: 1px;}
+	to {border-radius: 35px;}
+}
+button{
+	color: whitesmoke;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	font-size: 20px;
+	position: absolute;
+	top: 170px;
+	left: 698px;
+	border-width: 3px;
+	border-color: white ;
+	font-weight: 600;
+	overflow: hidden;
+	border-radius: 1px;
+
+}
+button:hover{
+	background-color: transparent;
+	color: whitesmoke;
+	transition: 0.6s;
+	border-radius: 35px;
+	overflow: hidden;
+}
+button:active{
+	color: white;
+}

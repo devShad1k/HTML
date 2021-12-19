@@ -1,0 +1,11 @@
+
+a{
+	color: white;
+	font-size: 30px;
+	text-decoration: blink;
+}
+a:hover{
+	color: white;
+	background-color: transparent;
+	transition: 0.3s;
+}
